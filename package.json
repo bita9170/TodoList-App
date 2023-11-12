@@ -1,0 +1,13 @@
+{
+  "name": "todolist-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "sass src/scss/main.scss:src/css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
