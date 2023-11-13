@@ -40,3 +40,9 @@ function SaveTasks() {
 function LoadTasks() {
   listContainer.innerHTML = localStorage.getItem("task");
 }
+
+inputBox.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
+    AddTask();
+  }
+});
